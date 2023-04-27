@@ -1,0 +1,51 @@
+/* Estilos para o cabeçalho */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Estilos para a barra de navegação */
+nav {
+  background-color: #555;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para o conteúdo */
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin: 20px;
+  text-align: justify;
+  color: #555;
+}
+
+p strong {
+  font-weight: bold;
+  color: #333;
+}
+
+p em {
+  font-style: italic;
+}
+
+p:first-of-type {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
